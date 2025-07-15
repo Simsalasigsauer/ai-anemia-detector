@@ -14,13 +14,13 @@ from predict_hb import predict_hb
 app = Flask(__name__)
 CORS(app)
 
-uri = 'mongodb+srv://jakobscharf:mIFL16blqCB3O9V1@onlynails.zjtlwkc.mongodb.net/?retryWrites=true&w=majority&appName=OnlyNails'
+uri = ""
 client = MongoClient(uri, tlsCAFile=certifi.where())
 db = client["onlynails"]
 fs = gridfs.GridFS(db, collection="pictures")
 
 # Key zur Generierung vom Login-Token -- nicht ändern!
-SECRET_KEY = "deinemamaistdickeralsmeinemamaaberdasistgarnichtschlimmweilmenschistmenschausserinkendieistkackiundfaul"
+SECRET_KEY = ""
 
 '''
 Wichtiges To-Do vor Vorstellung: die 'best.pt' und 'model_rf_rgb_avg.pkl' gegen richtig trainierte austauschen
