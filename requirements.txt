@@ -1,0 +1,11 @@
+ultralytics
+pandas
+scikit-learn
+tensorflow
+opencv-python-headless
+flask
+python-dotenv
+bcrypt
+PyJWT
+pymongo
+gunicorn
