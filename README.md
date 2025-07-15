@@ -1,6 +1,6 @@
 # Non-Invasive Hemoglobin Prediction using AI
 
-![Project Banner](https://github.com/Simsalasigsauer/ai-anemia-detector/blob/main/assets/banner.JPG)  
+ 
 
 An end-to-end web application to estimate hemoglobin (Hb) levels non-invasively from fingernail images. This project uses a two-stage computer vision and machine learning pipeline to provide a fast, accessible, and painless alternative to traditional blood tests for anemia screening.
 
