@@ -1,6 +1,6 @@
 # Non-Invasive Hemoglobin Prediction using AI
 
-![Project Banner](https://user-images.githubusercontent.com/your-username/your-repo/assets/banner.png)  <!-- Optional: Erstelle ein schönes Banner-Bild und lade es hoch -->
+![Project Banner](https://github.com/Simsalasigsauer/ai-anemia-detector/blob/main/assets/banner.JPG)  
 
 An end-to-end web application to estimate hemoglobin (Hb) levels non-invasively from fingernail images. This project uses a two-stage computer vision and machine learning pipeline to provide a fast, accessible, and painless alternative to traditional blood tests for anemia screening.
 
@@ -51,7 +51,7 @@ The goal is to create a tool that empowers at-risk individuals (e.g., pregnant w
 
 The application is built on a client-server architecture. The **Flask backend** serves a REST-API that handles user authentication, data storage, and executes the AI pipeline. The **vanilla JS frontend** communicates with the API to provide an interactive user experience.
 
-![System Architecture Diagram](https://user-images.githubusercontent.com/your-username/your-repo/assets/architecture.png) <!-- Optional: Diagramm erstellen -->
+
 
 ## AI Pipeline Explained
 
@@ -124,7 +124,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### 1. Data Preparation
 Place your raw image data in the `data/raw/` directory and your metadata (e.g., CSV with Hb values) as well. Run the data preparation scripts to process the data and create features.
 ```bash
-# (This step is a placeholder for your specific data prep scripts)
+
 python src/data_processing/prepare_data.py
 ```
 
